@@ -1,0 +1,14 @@
+{
+  "intents": [
+    {
+      "intent": "QuoteIntent",
+      "slots": [ {
+         "name": "Words",
+         "type": "QUERIES"
+      } ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
