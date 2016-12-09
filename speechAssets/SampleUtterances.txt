@@ -1,4 +1,18 @@
 QuoteIntent find {Words}
+QuoteIntent about {Words}
+QuoteIntent for {Words}
+QuoteIntent to find {Words}
+QuoteIntent where is {Words}
+QuoteIntent what episode is {Words}
+QuoteIntent where can I find {Words}
+QuoteIntent what is {Words}
+QuoteIntent assist me in finding {Words}
 
 HelpIntent help
 HelpIntent help me
+
+CloseIntent close
+CloseIntent exit
+CloseIntent bye
+CloseIntent never mind
+CloseIntent nevermind

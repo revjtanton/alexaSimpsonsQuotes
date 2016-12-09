@@ -93,6 +93,9 @@ SimpsonsQuotes.prototype.intentHandlers = {
     },
     HelpIntent: function (intent, session, response) {
         response.ask("Please ask me to find your quote by starting your quote with the word find.  For example you can ask to find the purple monkey dishwasher episode by asking: find purple monkey dishwasher. I hope that helps. What can I help you find?");
+    },
+    CloseIntent: function (intent, session, response) {
+        response.tell("A-hoy, hoy","A-hoy, hoy");
     }
 };
 
